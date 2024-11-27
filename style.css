@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    cursor: default;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    cursor: url('imgs/cursor.cur'), auto;
+}
+main {
+    margin: 0 10%;
+    }
+
+h1 {
+    font-size: 3rem; 
+    font-weight: 500; 
+    line-height: 1.3; 
+    font-family: 'Poppins', sans-serif;
+    padding: 0 1rem;
+    color: rgb(75, 86, 88);
+}
+  
+h2 {
+    font-size: 2rem;
+    font-weight: 200;
+    line-height: 1.6;
+    font-family: 'Poppins', sans-serif;
+}
+h5 {
+    font-size: 1.25rem;
+    font-weight: 100;
+    line-height: 1.6;
+    font-family: 'Poppins', sans-serif;
+}
+  
+h6 {
+    font-size: 1rem;
+    font-weight: 300; 
+    line-height: 1.75; 
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 300; 
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    color: #343a40;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+#hero-image {
+    width: 800px;
+    height: auto;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.city-pics {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 1rem 0;
+}
+
+.pics {
+    width: 300px;
+    height: auto;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.pics, .text {
+    transition: transform 0.4s ease;
+}
+.pics:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    cursor: url('imgs/paw.cur'), auto;
+}
+
+.text:hover {
+   cursor: pointer;
+}
+
+footer {
+    height: 100px;
+    background: rgb(255, 203, 144);
+    padding-top: 1rem;
+    background: linear-gradient(to left top, rgb(255, 205, 205), rgb(243, 214, 153))
+}
+
+.footer-links {
+    gap: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-link {
+    font-weight: 400;
+    color: #666;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+.footer-link:hover {
+    cursor: pointer;    
+    color: #333;
+}
+.plane:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    cursor: url('imgs/cursor.cur'), auto;
+}
+
+footer p {
+    font-size: 0.8rem;
+
+}
