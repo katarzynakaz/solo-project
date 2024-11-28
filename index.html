@@ -10,9 +10,9 @@
     <main>
             
             <section id="hero">
-                <h5>Welcome to the page about</h5>
+                <p class="h5">Welcome to the page about</p>
                 <h1>Lublin</h1>
-                <h6>in Poland</h6>
+                <p style="h6">in Poland</p>
                 <img src="./imgs/top10.webp" alt="Lublin city" id="hero-image" />
             </section>
                     
@@ -31,45 +31,69 @@
             <section id="pics">
                 <h2>View more about the city</h2>
                 <div class="city-pics">
-                    <div class="pic1">
+                    <div class="pic">
                         <a href="https://www.expedia.co.uk/Things-To-Do-In-Lublin.d5058.Travel-Guide-Activities?gallery-dialog=gallery-open" target="_blank"> 
                             <img
                             class="pics"
                             src="./imgs/156-noc-kultury-2024-wyjatkowe-wydarzenie.jpg"
                             alt="city picture"
                              />
-                        </a>
-                        <h5 class="text" onclick="location.href='https://www.expedia.co.uk/Things-To-Do-In-Lublin.d5058.Travel-Guide-Activities?gallery-dialog=gallery-open', '_blank'">
+                        
+                        <p class="text" onclick="location.href='https://www.expedia.co.uk/Things-To-Do-In-Lublin.d5058.Travel-Guide-Activities?gallery-dialog=gallery-open', '_blank'">
                         Top 10 Things to do
-                        </h5>
+                        </p></a>
                     </div>
                     
-                    <div class="pic1">
+                    <div class="pic">
                         <a href="https://lublininfo.com/en/about-lublin/#:~:text=Lublin%20is%20located%20in%20eastern,multicultural%20spirit%20of%20the%20town" target="_blank">
                             <img
                             class="pics"
                             src="./imgs/fot.-Jakub-Bodys-91.jpg"
                             alt="city picture" />
-                        </a>
-                        <h5 class="text" onclick="location.href='https://lublininfo.com/en/about-lublin/#:~:text=Lublin%20is%20located%20in%20eastern,multicultural%20spirit%20of%20the%20town', '_blank'">
+                        
+                        <p class="text" onclick="location.href='https://lublininfo.com/en/about-lublin/#:~:text=Lublin%20is%20located%20in%20eastern,multicultural%20spirit%20of%20the%20town', '_blank'">
                         City of Inspiration
-                        </h5>
+                        </p></a>
                     </div>
                     
-                    <div class="pics-div">
+                    <div class="pic">
                         <a href="https://en.wikipedia.org/wiki/Lublin" target="_blank"> 
                             <img
                             class="pics"
                             src="./imgs/ruk_2463.jpg"
                             alt="city picture"
                             />
+                            <p class="text" onclick="location.href='https://en.wikipedia.org/wiki/Lublin', '_blank'">
+                             Read about Lublin on Wikipedia
+                            </p>
                         </a>
-                        <h5 class="text" onclick="location.href='https://en.wikipedia.org/wiki/Lublin', '_blank'">
-                        Read about Lublin on Wikipedia
-                        </h5>
                     </div>
                     
                 </div>
+            </section>
+
+            <section>
+                <h5>Step 5</h5>
+                <div class="generator"></div>
+                   
+                        <div>
+                            <p class="destination">Not sure what city to visit next? </br> Enter your ideas here and our state of AI will select the next destination for you!</p>
+                            <ul id="list"></ul>
+                            <input id="text" />
+
+                            <button id="add">Add name</button>
+
+                            <p class="destination">Your next destination is: <span id="selected"></span></p>
+                            <button id="reveal">Reveal</button>
+                        </div>
+                        
+                        <div class="exercise">
+                            <p class="small-text">Link to exercise</p>
+                            <a href="https://blocks.codeyourfuture.io/share.html?v=('j!('blocks!('languageVersion!0~blocks!%5B%C2%8ARBcbb%7C2%3B%7Dilrc%7DKjd14I'~x!23~y!-1253%C2%80add%C2%84%C2%8BrJqb%5DJHZmaf%25aq%23Du5%40K'%C2%81ID!'list')%C2%82STACK%22add_element'~id!'%3FS06n3zqBa%5EM%5EMC%5DEQ%40%2F'%C2%81ELEMENT!'li%C2%87!'w*J6yAp%2BUvewpk%3An%5B%5BeI%C2%83%2C'BToPePJO.7*gES1bwnm%C2%85%C2%8CH()ix-QL0%23%7C%2FsY-hp%40HH%C2%86)~next%22arrays_push'~id!')7CcrR4dJ%409%40XTC%3DyN%7C%7D'%C2%81WHERE!'END')%C2%82VALUE%22get_%C2%8Cxirop%604g%7D%3AD%25aOw%257%3Bv%2F%C2%86~LIST%C2%8DO%2C'%24c%2C'Id%3FM_7gZvXPP%24%7C.%7F)))))))))))))))%2C%C2%8ANLs%2CuW%3BO%3DnH5%23XOMDq%5BV'~x!22~y!-1010%C2%80reveal%C2%84%C2%8B(%2Bz)V%2BOY_ie%7C4lhmvAP%2C''%C2%81ID!'selected%C2%87!'%5BwjVm%40%3F%7Cspat%3DT%7DX%25FY%7D%C2%83A%2C'%3F*_G%3B%7D)x%5DqH7Ik0SB8%C2%85randomMember'~id!'Yv%7CpM%7Dm%7BU%3Ajs3kCnHZ%5B-'%C2%82ARRAY%C2%8DG03LSXQO'%3Aj(7OR11%2C'ot%23%7F)))))))))))))%2C('type!'on_start'~id!'GOg7PT%7DfVb7%3FC'%3A*'%3ALUV('~x!24~y!-1324%C2%81TEXT1!'at%20the%20start%20%7Bwhen%20run%20is%20clicked%7D')%C2%82HANDLER%22variables_set'~id!'iMfi*FE%60_%5D%3F%3Fs%3D%5B%2BvsL%7B%7F%C2%82VALUE%22lists_create_with'~id!'jK(p5Tmv%5EI0H%7CZ%2C%5BC%3AJt'~extraState!('itemCount!0))))))))%5D)~variables!%5B('name!'names'~%C2%89%26facilitator1'~id!'nTgbyt0%2F%5B%2Bu)%3DJ1Z8rmi%26name2'~id!'zBH2%5Bsbb%23xSd*YexnQxk%26name3'~id!'p2i%3FsnS6EUbN6L%2C2Rpfg%26name1'~id!!nFn8FU%3F%7Cy%2C'QkZW%5B%5EL5w%26name'~id!'%60aKiq%7Bl2qW0e%40ENOyjS7%26input'~id!'%3F%2C'D%25%24m%7D.%60wQ1*6E%7C3%3FG7%26randomName'~id!'w.GRtC%7B%3DY%2C'%7C%7BwXtc6a%5D-%26item'~id!'%2C'%60ymE0%2C%2FC0627EWDDf-%7D%26array'~id!'bnS%7D%2B%5D27%5EC1x%5E%25z%5BJv9A%26x'~id!'nK%3A*eam(AG7%5BAib6qM%5DY%26i'~id!'(0R%2C%2Fw6mrGi%7Bw%5D%40%7BGSau')%5D)~h!'%3Cp%3EHere%20are%20available%20facilitators%3A%3C%2Fp%3E%5Cn%5Cn%5Cn%3Cul%C2%88list%5C'%3E%3C%2Ful%3E%5Cn%3Cinput%C2%88text%5C'%20%2F%3E%5Cn%C2%8Fadd%5C'%3EAdd%20name%C2%8E%5Cn%3Cp%3EYour%20facilitator%20is%3A%20%3Cspan%C2%88selected%5C'%3E%3C%2Fspan%3E%3C%2Fp%3E%C2%8Freveal%5C'%3EReveal%C2%8E')%22!('block!('type!'%26')%2C('name!'%7F'%C2%81VAR!('%C2%89'))%C2%80%C2%81TEXT1!'when%20the%20element%20with%20id'~ID!'%C2%81~fields!('%C2%82~inputs!('%C2%83'%C2%82VALUE!('shadow!('type!'text'~id!'%C2%84'~TEXT2!'is%20clicked')%C2%82HANDLER%C2%85'%C2%81TEXT!''))~block!('type!'get_%C2%86'%C2%81TYPE!'string'~ID!'text')))%C2%87')%C2%82STACK%22set_content'~id%C2%88%20id%3D%5C'%C2%89id!'Gc6fM.iV%3Fd%7CC7KR8%7B5Fu%C2%8A('type!'element_clicked'~id!'%C2%8B%22with_element_by_id'~id!'%C2%8Cinput_data_with_id'~id!'%C2%8D%22variables_get'~id!'%C2%8E%3C%2Fbutton%3E%5Cn%C2%8F%5Cn%3Cbutton%C2%88%01%C2%8F%C2%8E%C2%8D%C2%8C%C2%8B%C2%8A%C2%89%C2%88%C2%87%C2%86%C2%85%C2%84%C2%83%C2%82%C2%81%C2%80%7F%26%22_">
+                            <img class="step5" src="imgs/step 5.png" /></a>
+                        </div>
+                        
+                        </div>   
             </section>
             
         </main>
@@ -82,7 +106,7 @@
             </div>
             <p>Made by Kaska</p>
         </footer>
-
+        <script src="script.js"></script>
     </body>
 </html>
 

@@ -32,14 +32,14 @@ h2 {
     line-height: 1.6;
     font-family: 'Poppins', sans-serif;
 }
-h5 {
+h5, .h5 {
     font-size: 1.25rem;
     font-weight: 100;
     line-height: 1.6;
     font-family: 'Poppins', sans-serif;
 }
   
-h6 {
+.h6 {
     font-size: 1rem;
     font-weight: 300; 
     line-height: 1.75; 
@@ -55,7 +55,8 @@ p {
 }
 
 section {
-    padding: 2rem 0;
+    padding: 1rem;
+    margin: 2rem;
 }
 
 #hero-image {
@@ -67,13 +68,14 @@ section {
 
 .city-pics {
     display: flex;
-    flex-direction: row;
-    gap: 2rem;
+    flex-wrap: wrap;
+    gap: 20px;
     padding: 1rem 0;
+    justify-content: center;
 }
 
-.pics {
-    width: 300px;
+.pics, .step5 {
+    width: 500px;
     height: auto;
     padding: 0.5rem;
     border-radius: 1rem;
@@ -85,7 +87,12 @@ section {
 .pics:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease;
-    cursor: url('imgs/paw.cur'), auto;
+    cursor: pointer;
+}
+.step5:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    cursor: url('imgs/cursor.cur'), auto;
 }
 
 .text:hover {
@@ -93,6 +100,7 @@ section {
 }
 
 footer {
+    margin-top: auto;
     height: 100px;
     background: rgb(255, 203, 144);
     padding-top: 1rem;
@@ -124,5 +132,31 @@ footer {
 
 footer p {
     font-size: 0.8rem;
+}
 
+button {
+    background-color: rgb(255, 211, 145);
+    padding: 5px;
+    border-radius: 10px;
+    border-color: rgb(240, 207, 145);
+    font-family: 'Poppins', sans-serif;
+}
+input {
+    padding: 8px;
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: grey;
+}
+
+.exercise {
+    padding-top: 1rem;
+}
+
+li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.destination {
+    padding: 10px;
 }
